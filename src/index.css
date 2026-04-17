@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", "Times New Roman", serif;
+  --font-sans: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  
+  --color-paper: #F7F5F2;
+  --color-ink: #1A1A1A;
+  --color-muted: #A8A39D;
+  --color-accent: #A8A39D;
+  --color-border-subtle: rgba(26, 26, 26, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-paper text-ink selection:bg-ink selection:text-paper font-sans;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer utilities {
+  .vertical-rl {
+    writing-mode: vertical-rl;
+  }
+
+  .text-spaced {
+    @apply uppercase tracking-[0.2em] text-[10px];
+  }
+  
+  .editorial-container {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1.2fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 40px;
+    padding: 40px;
+  }
+}
