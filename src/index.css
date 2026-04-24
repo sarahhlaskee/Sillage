@@ -30,7 +30,7 @@
   
   .editorial-container {
     display: grid;
-    grid-template-columns: 80px 1fr 1fr 1.2fr;
+    grid-template-columns: 80px 1fr 1fr 1fr;
     grid-template-rows: auto 1fr auto;
     gap: 40px;
     padding: 40px;
