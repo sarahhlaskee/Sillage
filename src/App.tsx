@@ -7,6 +7,17 @@ import { motion, AnimatePresence, HTMLMotionProps } from "motion/react";
 import React, { useState, useEffect } from "react";
 import { ArrowUpRight, Menu, X, Instagram, Info } from "lucide-react";
 
+// Import images
+import f1 from "./assets/images/fashion/fashion-3.jpg";
+import f2 from "./assets/images/fashion/fashion-minimal.jpg";
+import f3 from "./assets/images/fashion/fashion-noni.jpg";
+import f4 from "./assets/images/fashion/fashion-stories.jpg";
+import f5 from "./assets/images/fashion/fashion-4.jpg";
+import f6 from "./assets/images/fashion/fashion-5.jpg";
+import a1 from "./assets/images/architecture/arch-6.jpg";
+import a2 from "./assets/images/architecture/arch-street.jpg";
+import a3 from "./assets/images/architecture/arch-geometric.jpg";
+
 interface Photo {
   id: string;
   url: string;
@@ -24,17 +35,17 @@ interface PhotoCardProps {
 
 const INSIGHTS: Photo[] = [
   // Fashion
-  { id: "f1", url: "/images/fashion/fashion-3.jpg", title: "Perspective 01", category: "Fashion", aspect: "aspect-[2/3]" },
-  { id: "f2", url: "/images/fashion/fashion-minimal.jpg", title: "Minimal Form", category: "Fashion", aspect: "aspect-square" },
-  { id: "f3", url: "/images/fashion/fashion-noni.jpg", title: "Noni Julia", category: "Fashion", aspect: "aspect-[3/2]" },
-  { id: "f4", url: "/images/fashion/fashion-stories.jpg", title: "Editorial Story", category: "Fashion", aspect: "aspect-[4/5]" },
-  { id: "f5", url: "/images/fashion/fashion-4.jpg", title: "Silhouette study", category: "Fashion", aspect: "aspect-[2/3]" },
-  { id: "f6", url: "/images/fashion/fashion-5.jpg", title: "Texture Detail", category: "Fashion", aspect: "aspect-square" },
+  { id: "f1", url: f1, title: "Perspective 01", category: "Fashion", aspect: "aspect-[2/3]" },
+  { id: "f2", url: f2, title: "Minimal Form", category: "Fashion", aspect: "aspect-square" },
+  { id: "f3", url: f3, title: "Noni Julia", category: "Fashion", aspect: "aspect-[3/2]" },
+  { id: "f4", url: f4, title: "Editorial Story", category: "Fashion", aspect: "aspect-[4/5]" },
+  { id: "f5", url: f5, title: "Silhouette study", category: "Fashion", aspect: "aspect-[2/3]" },
+  { id: "f6", url: f6, title: "Texture Detail", category: "Fashion", aspect: "aspect-square" },
   
   // Architecture
-  { id: "a1", url: "/images/architecture/arch-6.jpg", title: "Monolith 01", category: "Architecture", aspect: "aspect-[3/4]" },
-  { id: "a2", url: "/images/architecture/arch-street.jpg", title: "Street Study", category: "Architecture", aspect: "aspect-square" },
-  { id: "a3", url: "/images/architecture/arch-geometric.jpg", title: "Geometric Purity", category: "Architecture", aspect: "aspect-[2/3]" },
+  { id: "a1", url: a1, title: "Monolith 01", category: "Architecture", aspect: "aspect-[3/4]" },
+  { id: "a2", url: a2, title: "Street Study", category: "Architecture", aspect: "aspect-square" },
+  { id: "a3", url: a3, title: "Geometric Purity", category: "Architecture", aspect: "aspect-[2/3]" },
 ];
 
 export default function App() {
