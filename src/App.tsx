@@ -24,17 +24,17 @@ interface PhotoCardProps {
 
 const INSIGHTS: Photo[] = [
   // Fashion
-  { id: "f1", url: "/images/fashion/ -3.jpg", title: "Perspective 01", category: "Fashion", aspect: "aspect-[2/3]" },
-  { id: "f2", url: "/images/fashion/ .jpg", title: "Minimal Form", category: "Fashion", aspect: "aspect-square" },
-  { id: "f3", url: "/images/fashion/Noni Julia | ❤️ @bibi_breslin @aliciapadron_ @pierresaintsever @canakoxx @voguespain | Instagram.jpg", title: "Noni Julia", category: "Fashion", aspect: "aspect-[3/2]" },
-  { id: "f4", url: "/images/fashion/Stories • Instagram.jpg", title: "Editorial Story", category: "Fashion", aspect: "aspect-[4/5]" },
-  { id: "f5", url: "/images/fashion/ -4.jpg", title: "Silhouette study", category: "Fashion", aspect: "aspect-[2/3]" },
-  { id: "f6", url: "/images/fashion/ -5.jpg", title: "Texture Detail", category: "Fashion", aspect: "aspect-square" },
+  { id: "f1", url: "/images/fashion/fashion-3.jpg", title: "Perspective 01", category: "Fashion", aspect: "aspect-[2/3]" },
+  { id: "f2", url: "/images/fashion/fashion-minimal.jpg", title: "Minimal Form", category: "Fashion", aspect: "aspect-square" },
+  { id: "f3", url: "/images/fashion/fashion-noni.jpg", title: "Noni Julia", category: "Fashion", aspect: "aspect-[3/2]" },
+  { id: "f4", url: "/images/fashion/fashion-stories.jpg", title: "Editorial Story", category: "Fashion", aspect: "aspect-[4/5]" },
+  { id: "f5", url: "/images/fashion/fashion-4.jpg", title: "Silhouette study", category: "Fashion", aspect: "aspect-[2/3]" },
+  { id: "f6", url: "/images/fashion/fashion-5.jpg", title: "Texture Detail", category: "Fashion", aspect: "aspect-square" },
   
   // Architecture
-  { id: "a1", url: "/images/architecture/ -6.jpg", title: "Monolith 01", category: "Architecture", aspect: "aspect-[3/4]" },
-  { id: "a2", url: "/images/architecture/13 Things I Found on the Internet Today (Vol_ DLXXXIII).jpg", title: "Street Study", category: "Architecture", aspect: "aspect-square" },
-  { id: "a3", url: "/images/architecture/Geometric White Buildings Print | Abstract Architectural Wall Art.jpg", title: "Geometric Purity", category: "Architecture", aspect: "aspect-[2/3]" },
+  { id: "a1", url: "/images/architecture/arch-6.jpg", title: "Monolith 01", category: "Architecture", aspect: "aspect-[3/4]" },
+  { id: "a2", url: "/images/architecture/arch-street.jpg", title: "Street Study", category: "Architecture", aspect: "aspect-square" },
+  { id: "a3", url: "/images/architecture/arch-geometric.jpg", title: "Geometric Purity", category: "Architecture", aspect: "aspect-[2/3]" },
 ];
 
 export default function App() {
